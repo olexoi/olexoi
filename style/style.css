@@ -1,0 +1,588 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: black;
+  color: white;
+}
+
+.demo .sub-title {
+  color: white;
+  font-size: 2rem;
+  font-family: "Raleway Dots", cursive;
+  background-color: transparent;
+}
+
+.demo .logo {
+  position: absolute;
+  top: 10vh;
+  left: 12%;
+  font-size: 24px;
+  background-color: transparent;
+}
+
+.demo .logo .myName {
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.4rem;
+  background-color: transparent;
+}
+
+.demo .logo .mySurName {
+  font-family: "Raleway Dots", cursive;
+  background-color: transparent;
+}
+
+.demo .large-header {
+  position: relative;
+  width: 100%;
+  background: black;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  z-index: 0;
+}
+
+.demo .main-title {
+  position: absolute;
+  color: white;
+  background-color: transparent;
+  font-size: 3rem;
+  letter-spacing: 0.6rem;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  font-family: "Raleway", sans-serif;
+}
+
+@media only screen and (max-width: 2570px) {
+  .section1-heading {
+    width: 100%;
+    padding: 100px;
+  }
+  .section1-heading h2 {
+    text-align: center;
+    letter-spacing: 0.6rem;
+    font-size: 3rem;
+    font-family: "Raleway", sans-serif;
+  }
+  .section1 h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 0.6rem;
+  }
+  .section1 .section1-animated-image img {
+    width: 100%;
+    padding: 15px;
+  }
+  .section1 .section1-text {
+    letter-spacing: 0.6rem;
+    padding: 200px 15px;
+    list-style: none;
+    font-size: 2.7rem;
+    font-family: "Raleway", sans-serif;
+    line-height: 7rem;
+  }
+  .section1 .section1-text span {
+    font-family: "Raleway Dots", cursive;
+  }
+  .section2 h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 0.6rem;
+  }
+  .section2 .section1-animated-image img {
+    width: 90%;
+    padding: 100px 15px;
+  }
+  .section2 .section1-text {
+    letter-spacing: 0.6rem;
+    padding: 200px 15px;
+    list-style: none;
+    font-size: 2.7rem;
+    font-family: "Raleway", sans-serif;
+    line-height: 7rem;
+  }
+  .section2 span {
+    font-family: "Raleway Dots", cursive;
+  }
+}
+
+@media only screen and (max-width: 1367px) {
+  .section1-heading {
+    width: 100%;
+    padding: 100px;
+  }
+  .section1-heading h2 {
+    text-align: center;
+    letter-spacing: 0.6rem;
+    font-size: 3rem;
+    font-family: "Raleway", sans-serif;
+  }
+  .section1 h2 {
+    font-size: 2.7rem;
+    font-weight: bold;
+    letter-spacing: 0.6rem;
+  }
+  .section1 .section1-animated-image img {
+    width: 100%;
+    padding: 100px 15px;
+  }
+  .section1 .section1-text {
+    letter-spacing: 0.6rem;
+    padding: 200px 15px;
+    list-style: none;
+    font-size: 2.5rem;
+    font-family: "Raleway", sans-serif;
+    line-height: 7rem;
+  }
+  .section1 .section1-text span {
+    font-family: "Raleway Dots", cursive;
+  }
+  .section2 h2 {
+    font-size: 2.7rem;
+    font-weight: bold;
+    letter-spacing: 0.6rem;
+  }
+  .section2 .section1-animated-image img {
+    width: 90%;
+    padding: 5% 5% 5% 5%;
+  }
+  .section2 .section1-text {
+    letter-spacing: 0.6rem;
+    padding: 200px 15px;
+    list-style: none;
+    font-size: 2.5rem;
+    font-family: "Raleway", sans-serif;
+    line-height: 7rem;
+  }
+  .section2 span {
+    font-family: "Raleway Dots", cursive;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .section1-heading {
+    width: 100%;
+    padding: 100px;
+  }
+  .section1-heading h2 {
+    text-align: center;
+    letter-spacing: 0.6rem;
+    font-size: 3rem;
+    font-family: "Raleway", sans-serif;
+  }
+  .section1 h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    letter-spacing: 0.6rem;
+  }
+  .section1 .section1-animated-image img {
+    width: 100%;
+    padding: 100px 15px;
+  }
+  .section1 .section1-text {
+    letter-spacing: 0.6rem;
+    padding: 200px 15px;
+    list-style: none;
+    font-size: 2.5rem;
+    font-family: "Raleway", sans-serif;
+    line-height: 6rem;
+  }
+  .section1 .section1-text span {
+    font-family: "Raleway Dots", cursive;
+  }
+  .section2 h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    letter-spacing: 0.6rem;
+  }
+  .section2 .section1-animated-image img {
+    width: 90%;
+    padding: 27% 5% 5% 5%;
+  }
+  .section2 .section1-text {
+    letter-spacing: 0.6rem;
+    padding: 100px 15px;
+    list-style: none;
+    font-size: 2.2rem;
+    font-family: "Raleway", sans-serif;
+    line-height: 5rem;
+  }
+  .section2 span {
+    font-family: "Raleway Dots", cursive;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .section1-heading {
+    width: 100%;
+    padding: 100px;
+  }
+  .section1-heading h2 {
+    text-align: center;
+    letter-spacing: 0.6rem;
+    font-size: 3rem;
+    font-family: "Raleway", sans-serif;
+  }
+  .section1 h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    letter-spacing: 0.6rem;
+  }
+  .section1 .section1-animated-image img {
+    width: 100%;
+    padding: 100px 15px;
+  }
+  .section1 .section1-text {
+    letter-spacing: 0.6rem;
+    padding: 200px 15px;
+    list-style: none;
+    font-size: 2.2rem;
+    font-family: "Raleway", sans-serif;
+    line-height: 5rem;
+  }
+  .section1 .section1-text span {
+    font-family: "Raleway Dots", cursive;
+  }
+  .section2 h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    letter-spacing: 0.6rem;
+  }
+  .section2 .section1-animated-image img {
+    width: 90%;
+    padding: 27% 5% 5% 5%;
+  }
+  .section2 .section1-text {
+    letter-spacing: 0.6rem;
+    padding: 100px 15px;
+    list-style: none;
+    font-size: 2.5rem;
+    font-family: "Raleway", sans-serif;
+    line-height: 6rem;
+  }
+  .section2 span {
+    font-family: "Raleway Dots", cursive;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .section1-heading {
+    width: 100%;
+    padding: 100px;
+  }
+  .section1-heading h2 {
+    text-align: center;
+    letter-spacing: 0.6rem;
+    font-size: 3rem;
+    font-family: "Raleway", sans-serif;
+  }
+  .section1 h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    letter-spacing: 0.6rem;
+    padding: 20px;
+  }
+  .section1 .section1-animated-image img {
+    width: 100%;
+  }
+  .section1 .section1-text {
+    letter-spacing: 0.6rem;
+    list-style: none;
+    font-size: 2rem;
+    font-family: "Raleway", sans-serif;
+    line-height: 4rem;
+  }
+  .section1 .section1-text span {
+    font-family: "Raleway Dots", cursive;
+  }
+  .section2 h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    letter-spacing: 0.6rem;
+    padding: 20px;
+  }
+  .section2 .section1-animated-image img {
+    width: 90%;
+    padding: 100px 15px;
+  }
+  .section2 .section1-text {
+    letter-spacing: 0.6rem;
+    list-style: none;
+    font-size: 2rem;
+    font-family: "Raleway", sans-serif;
+    line-height: 4rem;
+  }
+  .section2 span {
+    font-family: "Raleway Dots", cursive;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .section1-heading {
+    width: 100%;
+    padding: 100px;
+  }
+  .section1-heading h2 {
+    text-align: center;
+    letter-spacing: 0.6rem;
+    font-size: 3rem;
+    font-family: "Raleway", sans-serif;
+  }
+  .section1 h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 0.6rem;
+    padding: 20px;
+  }
+  .section1 .section1-animated-image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section1 .section1-animated-image img {
+    padding: 0;
+    width: 50%;
+  }
+  .section1 .section1-text {
+    padding: 15px;
+    letter-spacing: 0.6rem;
+    list-style: none;
+    font-size: 2rem;
+    font-family: "Raleway", sans-serif;
+    line-height: 4rem;
+  }
+  .section1 .section1-text span {
+    font-family: "Raleway Dots", cursive;
+  }
+  .section2 h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 0.6rem;
+    padding: 20px;
+  }
+  .section2 .section1-animated-image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section2 .section1-animated-image img {
+    padding: 0;
+    width: 50%;
+  }
+  .section2 .section1-text {
+    letter-spacing: 0.6rem;
+    padding: 20px;
+    list-style: none;
+    font-size: 2rem;
+    font-family: "Raleway", sans-serif;
+    line-height: 4rem;
+  }
+  .section2 span {
+    font-family: "Raleway Dots", cursive;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .main-title {
+    font-size: 2rem;
+  }
+}
+
+.section3 h2 {
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  padding: 40px;
+}
+
+.slideshow-container-mobile {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.slideshow-container-mobile .mySlides-mobile {
+  width: 100%;
+  height: auto;
+  padding-left: 3%;
+  display: inline;
+}
+
+.slideshow-container-mobile .mySlides-mobile img {
+  padding-left: 6%;
+  width: 90%;
+  height: auto;
+  display: inline;
+}
+
+.slideshow-container-mobile .mySlides-mobile img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+  opacity: 0.6;
+}
+
+.slideshow-container-mobile .controll-buttons .next {
+  float: right;
+}
+
+.slideshow-container-mobile .display-none {
+  display: none;
+}
+
+@media only screen and (max-width: 714px) {
+  .slideshow-container {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 714px) {
+  .slideshow-container-mobile {
+    display: none;
+  }
+}
+
+.slideshow-container {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.slideshow-container .mySlides {
+  width: 100%;
+  height: auto;
+  padding-left: 3%;
+  display: inline;
+}
+
+.slideshow-container .mySlides img {
+  width: 30%;
+  padding: 15px;
+  margin: 1%;
+  height: auto;
+  display: inline;
+}
+
+.slideshow-container .mySlides img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+  opacity: 0.6;
+}
+
+.slideshow-container .controll-buttons .next {
+  float: right;
+}
+
+footer {
+  height: 500px;
+}
+
+footer #connect {
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+  width: 60%;
+}
+
+footer #connect .s4-header {
+  margin: 50px 0;
+}
+
+footer #connect input[type="email"] {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin: 20px 0;
+  outline: none;
+  padding: 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  font-size: 1.2rem;
+  letter-spacing: 0.3rem;
+}
+
+footer #connect input[type="mail"] {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin: 20px 0;
+  outline: none;
+  padding: 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  font-size: 1.2rem;
+  letter-spacing: 0.3rem;
+}
+
+footer #connect button {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  border: 1px solid #fff;
+  padding: 15px;
+  outline: none;
+}
+
+footer .my-info {
+  margin-top: 40px;
+}
+
+footer .my-info img {
+  opacity: 0.7;
+}
+
+footer .my-info a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+footer .my-info h2 {
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+  font-weight: bold;
+  padding: 30px 0;
+}
+
+footer .my-info h3 {
+  font-size: 1.2rem;
+  letter-spacing: 0.5rem;
+}
+
+footer .my-info i {
+  padding: 20px;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 800px) {
+  footer .my-info h2 {
+    letter-spacing: 0.2rem;
+  }
+}
+
+@media screen and (max-width: 997px) {
+  footer .my-info h2 {
+    font-size: 1rem;
+  }
+  footer .my-info h3 {
+    font-size: 0.8rem;
+  }
+  footer .my-info i {
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
